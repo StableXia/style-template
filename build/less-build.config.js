@@ -8,7 +8,7 @@ function copyFile() {
 function buildLess() {
     return src('../styles/less/index.less')
         .pipe(less())
-        .pipe(dest('../lib/less/index.css'))
+        .pipe(dest('../lib/less/'))
 }
 
 exports.default = parallel(copyFile, buildLess)
