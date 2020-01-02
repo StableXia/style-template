@@ -1,0 +1,30 @@
+/* @size could be 1, 2, 3, 4, 6, 8, which are according to Material Design */
+.normalized-shadow(@size) when (@size = 1) {
+  @shadow: 0 0 2px rgba(0, 0, 0, 0.14), 0 2px 2px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: @shadow;
+}
+
+.normalized-shadow(@size) when (@size = 2) {
+  @shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 3px 4px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: @shadow;
+}
+
+.normalized-shadow(@size) when (@size = 3) {
+  @shadow: 0 3px 3px rgba(0, 0, 0, 0.14), 0 3px 4px rgba(0, 0, 0, 0.12), 0 1px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: @shadow;
+}
+
+.normalized-shadow(@size) when (@size = 4) {
+  @shadow: 0 2px 4px rgba(0, 0, 0, 0.14), 0 4px 5px rgba(0, 0, 0, 0.12), 0 1px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: @shadow;
+}
+
+.normalized-shadow(@size) when (@size = 6) {
+  @shadow: 0 6px 10px rgba(0, 0, 0, 0.14), 0 1px 18px rgba(0, 0, 0, 0.12), 0 3px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: @shadow;
+}
+
+.normalized-shadow(@size) when (@size = 8) {
+  @shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 3px rgba(0, 0, 0, 0.12), 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: @shadow;
+}
