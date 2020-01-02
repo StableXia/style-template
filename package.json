@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/xiaotangdou/style-template#readme",
   "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-angular": "^8.2.0",
     "gulp": "^4.0.2",
     "gulp-less": "^4.0.1"
   },
@@ -30,5 +32,10 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-angular"
+    ]
   }
 }
