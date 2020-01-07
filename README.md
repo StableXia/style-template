@@ -18,12 +18,12 @@
 npm install style-template
 ```
 
-+ 项目中引入less文件
++ 以less的方式引入
 ```less
 @import '~style-template/lib/less/index.less';
 ```
 
-+ 项目中引入css文件
++ 以css的方式引入
 ```css
 @import '~style-template/lib/less/index.css';
 ```
