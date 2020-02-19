@@ -1,0 +1,203 @@
+/* @size could be 1, 2, 3, 4, 6, 8, which are according to Material Design */
+.df-layout {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.df-layout--inline {
+  display: inline-flex;
+}
+.df-layout--column {
+  flex-direction: column;
+}
+.df-layout--row {
+  flex-direction: row;
+}
+.df-layout--center-items {
+  align-items: center;
+}
+.df-layout--start-items {
+  align-items: flex-start;
+}
+.df-layout--center-justify {
+  justify-content: center;
+}
+.df-layout--between-justify {
+  justify-content: space-between;
+}
+.df-layout--around-justify {
+  justify-content: space-around;
+}
+.df-layout--end-justify {
+  justify-content: flex-end;
+}
+.df-layout--start-justify {
+  justify-content: flex-start;
+}
+.df-layout--wrap {
+  flex-wrap: wrap;
+}
+.df-layout__flex {
+  flex: 1 1 0%;
+  min-width: 0px;
+  min-height: 0px;
+}
+.df-layout__flex--auto-min-size {
+  min-width: auto;
+  min-height: auto;
+}
+.df-layout__flex--with-hidden {
+  overflow: hidden;
+}
+.df-layout__flex-none {
+  flex: none;
+}
+.df-layout-row--with-hidden {
+  overflow: hidden;
+}
+.df-layout-row + .df-layout-row {
+  margin: 16px 0 0 0;
+}
+.df-layout-row-small--with-hidden {
+  overflow: hidden;
+}
+.df-layout-row-small + .df-layout-row-small {
+  margin: 8px 0 0 0;
+}
+.df-layout-row-large--with-hidden {
+  overflow: hidden;
+}
+.df-layout-row-large + .df-layout-row-large {
+  margin: 32px 0 0 0;
+}
+.df-layout-col--with-hidden {
+  overflow: hidden;
+}
+.df-layout-col + .df-layout-col {
+  margin: 0 0 0 16px;
+}
+.df-layout-col-small--with-hidden {
+  overflow: hidden;
+}
+.df-layout-col-small + .df-layout-col-small {
+  margin: 0 0 0 8px;
+}
+.df-layout-col-large--with-hidden {
+  overflow: hidden;
+}
+.df-layout-col-large + .df-layout-col-large {
+  margin: 0 0 0 32px;
+}
+.df-typo-display1 {
+  font-size: 32px;
+  font-weight: normal;
+}
+.df-typo-display2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+.df-typo-display3 {
+  font-size: 20px;
+  font-weight: normal;
+}
+.df-typo-display4 {
+  font-size: 16px;
+  font-weight: normal;
+}
+.df-typo-display5 {
+  font-size: 14px;
+  font-weight: normal;
+}
+.df-typo-display6 {
+  font-size: 12px;
+  font-weight: normal;
+}
+.df-typo-headline {
+  font-size: 16px;
+  font-weight: bold;
+}
+.df-typo-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+.df-typo-sub-title {
+  font-size: 14px;
+  font-weight: normal;
+}
+.df-typo-small-title {
+  font-size: 12px;
+  font-weight: bold;
+}
+.df-typo-body {
+  font-size: 12px;
+  font-weight: normal;
+}
+.df-label-width-xxxsmall {
+  width: 20px;
+}
+.df-label-width-xxsmall {
+  width: 30px;
+}
+.df-label-width-xsmall {
+  width: 40px;
+}
+.df-label-width-small {
+  width: 50px;
+}
+.df-label-width-primary {
+  width: 60px;
+}
+.df-label-width-large {
+  width: 70px;
+}
+.df-label-width-xlarge {
+  width: 80px;
+}
+.df-label-width-xxlarge {
+  width: 90px;
+}
+.df-label-width-xxxlarge {
+  width: 120px;
+}
+.df-label-width-xxxxlarge {
+  width: 180px;
+}
+.df-form-width-xxxsmall {
+  width: 60px;
+}
+.df-form-width-xxsmall {
+  width: 80px;
+}
+.df-form-width-xsmall {
+  width: 100px;
+}
+.df-form-width-small {
+  width: 120px;
+}
+.df-form-width-primary {
+  width: 180px;
+}
+.df-form-width-large {
+  width: 240px;
+}
+.df-form-width-xlarge {
+  width: 260px;
+}
+.df-form-width-xxlarge {
+  width: 280px;
+}
+.df-form-width-xxxlarge {
+  width: 300px;
+}
+.df-form-width-xxxxlarge {
+  width: 400px;
+}
+.df-form-height-small {
+  width: 24px;
+}
+.df-form-height-primary {
+  width: 32px;
+}
+.df-form-height-large {
+  width: 36px;
+}

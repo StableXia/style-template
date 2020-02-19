@@ -1,0 +1,16 @@
+@form-width: 10px;
+@form-width-primary: @form-width*18;
+@form-width-small: @form-width*12;
+@form-width-large: @form-width*24;
+
+@form-height: 2px;
+@form-height-primary: @form-height*16;
+@form-height-small: @form-height*12;
+@form-height-large: @form-height*18;
+
+.form-width(@size: 18) {
+  width: @form-width* @size;
+}
+.form-height(@size: 16) {
+  width: @form-height* @size;
+}
