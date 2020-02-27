@@ -28,5 +28,5 @@ npm install style-template
 @import '~style-template/lib/less/index.css';
 ```
 
-### 模板片段提示
+### 模板片段提示(存在bug，正在努力解决中)
 >如果你用的开发工具正好是vscode，那么来吧，[点我👀](https://github.com/xiaotangdou/vscode-style-template-snippets/blob/master/README.md)
